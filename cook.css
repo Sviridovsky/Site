@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+}
+header{
+	height: 150px;
+	background-color: wheat;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(https://www.gamebyte.com/wp-content/uploads/2022/02/34fb85ec-1245620_20220220202412_1.jpg);
+
+}
+#manu{
+	width: 19.5779%;
+	height: 810px;
+    
+    float: left;
+    border: 2px solid black;
+    background-image: url("11.png");
+
+
+
+}
+.OO{
+  text-align: center;
+  font-size: 35px;
+
+}
+#content{
+	width: 80%;
+	height: 810px;
+	background-color: wheat;
+  
+	float: left;
+  border: 2px solid black;
+  background-image: url(https://mp1st.com/wp-content/uploads/2021/10/elden-ring-gameplay.jpg);
+}
+footer{
+	height: 200px;
+	background-color: crimson;
+	clear: both;
+  border: 2px solid black ;
+  color: wheat;
+ 
+}
+h2{
+	text-align: center;
+  
+}
+
+
+/* CSS */
+.button-74 {
+  background-image: url("Screenshot_11.png");
+  background-color: ;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: whitesmoke;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 80%;
+  margin: 10px;
+  height: 40px;
+}
+
+.button-74:hover {
+  background-color: #fff;
+  direction: ;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+body{
+  background-color: wheat;
+}
+p{
+  font-size: 35px;
+  font-family: 'Righteous', cursive;
+
+}
+h1{
+ color: whitesmoke;
+}

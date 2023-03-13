@@ -1,0 +1,35 @@
+html,body{
+	text-align: center;
+	width: 480px;
+
+}
+.box {
+	width: 700px;
+	height: 550px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin:0 auto;
+	top: calc(50% - 400px);
+	color: white;
+	font-family: 'PT Sans Caption', sans-serif;
+
+}
+body{
+	background-image: url("https://img.freepik.com/premium-photo/dark-gloomy-grey-and-black-slate-background-or-texture_271317-1488.jpg");
+}
+.TiTle {
+	font-size: 50px;
+}
+p{
+	font-size: 20px;
+}
+.fb{
+	border-radius: 20px;
+	width: 150px;
+	height: 100px;
+	font-size: 15px;
+	font-family: cursive;
+	color: white;
+	background:linear-gradient(gray,black,gray);
+}

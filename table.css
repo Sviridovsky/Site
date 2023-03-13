@@ -1,0 +1,35 @@
+body{
+	background-color: ;
+}
+p{
+	font-size: 50px ;
+	color: coral;
+
+	text-align: center;
+}
+table{
+	border: double 3px black;
+	width: 50%;
+}
+th,td{
+	border: solid 2px black;
+	width:25% ;
+	
+	font-size: 25px;
+}
+tr:hover{
+	background-color: white;
+	
+}
+td:hover{
+	background: linear-gradient(coral,lime);
+	color: red;
+	font-size: 2em;
+text-align: center;
+}
+tr:nth-child(even){
+	background-color: #00FFFF;
+}
+td:nth-child(even){
+	background-color:#7FFFD4 ;
+}

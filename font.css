@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Rubik+Beastly&family=Rubik+Moonrocks&display=swap');
+body{
+	background-color: cyan;
+}
+p{
+	font-size: 50px;
+	color: blue;
+	font-family: "Gill Sans", sans-serif;
+}
+.first{
+	font-family: 'Marck Script', cursive;
+	color: lime;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+.second{
+	font-family: 'Rubik Beastly', cursive;
+}
+.third{
+	font-family: 'Rubik Moonrocks', cursive;
+
+}
+.fl{
+	font-size: 2em;
+	font-family: 'Rubik Beastly', cursive;
+	color: blue;
+	font-style: italic;
+}
+.underline{
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration: blue;
+	text text-underline-position: auto;;
+}
+.shadow{
+	text-shadow: 5px 5px blue;
+	font-weight: 500;
+	text-emphasis: filled red;
+}
+.shadow2{
+	text-shadow: 1px 4px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.shadow3{
+	text-shadow: red 2px 3px, 0 0 4px blue ;
+	text-transform: uppercase;
+}
