@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(https://cs11.pikabu.ru/post_img/big/2018/09/15/11/1537040671199212861.png) ;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <script>
+        let number = Math.random()*100;
+        number = Math.ceil(number);
+        let guess = prompt('Вгадай число від 1 до 100')
+        
+        while (guess != number){
+             if (guess> number){
+                guess = prompt('Забагато спробуй ще раз!')
+             }
+             if (guess<number){
+                guess=prompt('Замало спробуй ще раз');
+             }
+        }
+           alert('Ти вгадав це число '+ number) 
+        
+        
+    </script>
+</body>
+</html>
